@@ -10,8 +10,7 @@
   </context-param>
   <context-param>
     <param-name>link-list</param-name>
-    <param-value>http://localhost:8080,http://localhost:8080/sample-app
-    </param-value>
+    <param-value>http://localhost:8080,http://localhost:8080/sample-app</param-value>
   </context-param>
 
 </web-app>
