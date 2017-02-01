@@ -1,0 +1,22 @@
+# Relative path to lookup the template files
+templateDir: sample-app
+
+files:
+
+# Deployment descriptor and webapp for single deplyoment
+- file: sample-app.xml
+  dir: conf/Catalina/localhost
+  template: context.xml.hbs
+
+- file: sample-app.war
+  url: mvn:de.pro-vision.training.conga/de.pro-vision.training.conga.basic.sample-app//war
+  dir: webapps
+
+
+# Defines configuration parameters and default values
+config:
+
+  sampleApp:
+    welcomeMessage: Hello World, this is the default welcome message from the sample-app CONGA role.
+    linkList:
+    - http://localhost:8080/sample-app

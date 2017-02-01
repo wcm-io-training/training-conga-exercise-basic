@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>de.pro-vision.training.conga</groupId>
+    <artifactId>de.pro-vision.training.conga.basic.parent</artifactId>
+    <version>1-SNAPSHOT</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+  
+  <groupId>de.pro-vision.training.conga</groupId>
+  <artifactId>de.pro-vision.training.conga.basic.environment</artifactId>
+  <packaging>config</packaging>
+
+  <name>CONGA Training: Environments</name>
+
+  <dependencies>
+  
+    <!-- Reference role and template definitions from maven artifact -->
+    <dependency>
+      <groupId>de.pro-vision.training.conga</groupId>
+      <artifactId>de.pro-vision.training.conga.basic.definition</artifactId>
+      <version>1-SNAPSHOT</version>
+    </dependency>
+    
+    <!-- Example reference for downloading maven artifact in CONGA -->
+    <dependency>
+      <groupId>io.wcm.devops</groupId>
+      <artifactId>io.wcm.devops.parent_toplevel</artifactId>
+      <version>1.0.2</version>
+      <type>xml</type>
+      <classifier>site</classifier>
+    </dependency>
+
+  </dependencies>
+  
+</project>

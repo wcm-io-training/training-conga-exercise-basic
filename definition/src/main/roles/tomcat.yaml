@@ -1,0 +1,32 @@
+# Relative path to lookup the template files
+templateDir: tomcat
+
+files:
+
+# Customize system environment for tomcat startup (unix, windows)
+- file: setenv.sh
+  dir: bin
+  template: setenv.sh.hbs
+  charset: ISO-8859-1
+
+- file: setenv.bat
+  dir: bin
+  template: setenv.bat.hbs
+  charset: ISO-8859-1
+  lineEndings: windows
+
+
+# Defines configuration parameters and default values
+config:
+
+  tomcat:
+    path: /path/to/tomcat
+
+  jvm:
+    path: /path/to/java
+    heapspace:
+      min: ${jvm.heapspace.max}
+      max: 512m
+
+  # Optionally: set instance ID system environment variable
+  #instanceId: instance1

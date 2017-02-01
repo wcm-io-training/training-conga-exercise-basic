@@ -1,0 +1,18 @@
+# Defines an environment
+nodes:
+
+# Node with single deployment
+- node: localhost
+  roles:
+  - role: tomcat
+  - role: sample-app
+
+
+# Global configuration
+config:
+
+  jvm.path: C:\java\jdk1.8.0_121
+  tomcat.path: C:\java\apache-tomcat-8.5.11
+
+  sampleApp:
+    welcomeMessage: Hello World, welcome single app!

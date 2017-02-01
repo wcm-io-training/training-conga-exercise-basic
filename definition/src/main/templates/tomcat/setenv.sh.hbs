@@ -1,0 +1,8 @@
+# Java environment to use for the tomcat instance
+JAVA_HOME="{{jvm.path}}"
+
+# Path where to store PID file
+CATALINA_PID="{{tomcat.path}}/catalinarunning.pid"
+
+# Heap space memory settings for JVM
+CATALINA_OPTS="-Xms{{jvm.heapspace.min}} -Xmx{{jvm.heapspace.max}}"

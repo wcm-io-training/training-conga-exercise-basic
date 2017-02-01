@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>io.wcm.maven</groupId>
+    <artifactId>io.wcm.maven.global-parent</artifactId>
+    <version>13</version>
+    <relativePath/>
+  </parent>
+
+  <groupId>de.pro-vision.training.conga</groupId>
+  <artifactId>de.pro-vision.training.conga.basic.parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1-SNAPSHOT</version>
+
+  <name>CONGA Training: Parent</name>
+
+  <build>
+    <plugins>
+
+      <!-- Configure CONGA maven plugin to support CONGA-specific packaging types -->
+      <plugin>
+        <groupId>io.wcm.devops.conga</groupId>
+        <artifactId>conga-maven-plugin</artifactId>
+        <version>1.2.1-SNAPSHOT</version>
+        <extensions>true</extensions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>

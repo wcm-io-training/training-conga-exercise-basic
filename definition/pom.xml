@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>de.pro-vision.training.conga</groupId>
+    <artifactId>de.pro-vision.training.conga.basic.parent</artifactId>
+    <version>1-SNAPSHOT</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+  
+  <groupId>de.pro-vision.training.conga</groupId>
+  <artifactId>de.pro-vision.training.conga.basic.definition</artifactId>
+  <packaging>config-definition</packaging>
+
+  <name>CONGA Training: Configuration definitions</name>
+  
+  <dependencies>
+
+    <!-- Reference to sample application to be deployed by the sample-app role -->
+    <dependency>
+      <groupId>de.pro-vision.training.conga</groupId>
+      <artifactId>de.pro-vision.training.conga.basic.sample-app</artifactId>
+      <version>1-SNAPSHOT</version>
+      <type>war</type>
+    </dependency>
+
+  </dependencies>
+
+</project>
