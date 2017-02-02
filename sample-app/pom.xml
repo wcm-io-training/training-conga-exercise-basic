@@ -14,7 +14,7 @@
   <artifactId>de.pro-vision.training.conga.basic.sample-app</artifactId>
   <packaging>war</packaging>
   
-  <name>CONGA Training: Sample Tomcat Application</name>
+  <name>CONGA Training: Basic Sample Webapp</name>
   
   <dependencies>
     <dependency>

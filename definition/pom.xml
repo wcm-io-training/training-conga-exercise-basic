@@ -14,7 +14,7 @@
   <artifactId>de.pro-vision.training.conga.basic.definition</artifactId>
   <packaging>config-definition</packaging>
 
-  <name>CONGA Training: Configuration definitions</name>
+  <name>CONGA Training: Basic Definitions</name>
   
   <dependencies>
 

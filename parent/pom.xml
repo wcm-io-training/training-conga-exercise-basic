@@ -15,7 +15,7 @@
   <packaging>pom</packaging>
   <version>1-SNAPSHOT</version>
 
-  <name>CONGA Training: Parent</name>
+  <name>CONGA Training: Basic Parent</name>
 
   <build>
     <plugins>

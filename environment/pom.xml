@@ -12,9 +12,9 @@
   
   <groupId>de.pro-vision.training.conga</groupId>
   <artifactId>de.pro-vision.training.conga.basic.environment</artifactId>
-  <packaging>config</packaging>
+  <packaging>pom</packaging>
 
-  <name>CONGA Training: Environments</name>
+  <name>CONGA Training: Basic Environments</name>
 
   <dependencies>
   
@@ -36,4 +36,27 @@
 
   </dependencies>
   
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>io.wcm.devops.conga</groupId>
+        <artifactId>conga-maven-plugin</artifactId>
+        <executions>
+
+          <!-- Generate configuration without ZIP file -->
+          <execution>
+            <id>lauchpad-configuration-generate</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
 </project>
