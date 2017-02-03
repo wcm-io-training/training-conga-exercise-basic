@@ -42,6 +42,9 @@
       <plugin>
         <groupId>io.wcm.devops.conga</groupId>
         <artifactId>conga-maven-plugin</artifactId>
+        <configuration>
+          <modelExportNode>none</modelExportNode>
+        </configuration>
         <executions>
 
           <!-- Generate configuration without ZIP file -->
