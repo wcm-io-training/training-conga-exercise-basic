@@ -27,5 +27,16 @@
     </dependency>
 
   </dependencies>
+  
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>io.wcm.devops.conga</groupId>
+        <artifactId>conga-maven-plugin</artifactId>
+      </plugin>
+
+    </plugins>
+  </build>
 
 </project>
