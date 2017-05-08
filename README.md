@@ -1,5 +1,6 @@
 CONGA Training: Basic concepts
 ==============================
+[![Build Status](https://travis-ci.org/wcm-io-training/training-conga-exercise-basic.png?branch=master)](https://travis-ci.org/wcm-io-training/training-conga-exercise-basic)
 
 This training projects targets the following training modules:
 
