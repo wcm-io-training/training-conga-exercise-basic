@@ -2,15 +2,16 @@ CONGA Training: Basic concepts
 ==============================
 
 This training projects targets the following training modules:
-* [PVTRAIN-145 CONGA Overview](https://jira.pvtool.org/confluence/x/JIGHCg)
+
+* [PVTRAIN-145 CONGA Overview](http://training.wcm.io/conga/PVTRAIN-145-CONGA-Overview.html)
 
 
 Exercises
 ---------
 
-* [PVTRAIN-148-01 See CONGA in action](https://jira.pvtool.org/confluence/x/QYAcE)
-* [PVTRAIN-148-02 Configure CONGA environments](https://jira.pvtool.org/confluence/x/Q4AcE)
-* [PVTRAIN-148-03 Define CONGA Roles and Templates](https://jira.pvtool.org/confluence/x/RYAcE)
+* [PVTRAIN-148-01 See CONGA in action](http://training.wcm.io/conga/PVTRAIN-148-01-See-CONGA-in-action.html)
+* [PVTRAIN-148-02 Configure CONGA environments](http://training.wcm.io/conga/PVTRAIN-148-02-Configure-CONGA-environments.html)
+* [PVTRAIN-148-03 Define CONGA Roles and Templates](http://training.wcm.io/conga/PVTRAIN-148-03-Define-CONGA-Roles-and-Templates.html)
 
 
 Build configuration
