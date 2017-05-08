@@ -1,6 +1,3 @@
-# This is the central .gitattributes file for all pro!vision GIT repos. Please do not change it on project-level.
-# See https://jira.pvtool.org/confluence/x/IACuBg for details.
-
 # Declare text files with unix file ending
 *.conf text eol=lf
 *.config text eol=lf
