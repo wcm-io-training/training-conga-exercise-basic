@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   
   <parent>
-    <groupId>io.wcm.maven</groupId>
-    <artifactId>io.wcm.maven.global-parent</artifactId>
-    <version>14</version>
-    <relativePath/>
+    <groupId>de.pro-vision.training.conga</groupId>
+    <artifactId>de.pro-vision.training.conga.basic.parent</artifactId>
+    <version>1-SNAPSHOT</version>
+    <relativePath>parent/pom.xml</relativePath>
   </parent>
 
   <groupId>de.pro-vision.training.conga</groupId>
