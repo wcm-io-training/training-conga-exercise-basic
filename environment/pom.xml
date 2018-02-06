@@ -49,7 +49,7 @@
 
           <!-- Generate configuration without ZIP file -->
           <execution>
-            <id>lauchpad-configuration-generate</id>
+            <id>dev-environment-config</id>
             <phase>generate-resources</phase>
             <goals>
               <goal>generate</goal>
