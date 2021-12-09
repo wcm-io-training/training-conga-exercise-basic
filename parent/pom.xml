@@ -6,7 +6,7 @@
   <parent>
     <groupId>io.wcm.maven</groupId>
     <artifactId>io.wcm.maven.global-parent</artifactId>
-    <version>33</version>
+    <version>40</version>
     <relativePath/>
   </parent>
 
@@ -20,8 +20,7 @@
   <properties>
   
     <!-- Java version -->
-    <java.version>1.8</java.version>
-    <build.compiler.release>8</build.compiler.release>
+    <java.version>11</java.version>
 
   </properties>
 
@@ -32,7 +31,7 @@
         <plugin>
           <groupId>io.wcm.devops.conga</groupId>
           <artifactId>conga-maven-plugin</artifactId>
-          <version>1.13.2</version>
+          <version>1.14.2</version>
           <extensions>true</extensions>
         </plugin>
   
