@@ -4,15 +4,15 @@ CONGA Training: Basic concepts
 
 This training projects targets the following training modules:
 
-* [PVTRAIN-145 CONGA Overview](https://training.wcm.io/conga/PVTRAIN-145-CONGA-Overview.html)
+* [DATM-57 CONGA Overview](https://training.wcm.io/conga/DATM-57-CONGA-Overview.html)
 
 
 Exercises
 ---------
 
-* [PVTRAIN-148-01 See CONGA in action](https://training.wcm.io/conga/PVTRAIN-148-01-See-CONGA-in-action.html)
-* [PVTRAIN-148-02 Configure CONGA environments](https://training.wcm.io/conga/PVTRAIN-148-02-Configure-CONGA-environments.html)
-* [PVTRAIN-148-03 Define CONGA Roles and Templates](https://training.wcm.io/conga/PVTRAIN-148-03-Define-CONGA-Roles-and-Templates.html)
+* [DATM-59-01 See CONGA in action](https://training.wcm.io/conga/DATM-59-01-See-CONGA-in-action.html)
+* [DATM-59-02 Configure CONGA environments](https://training.wcm.io/conga/DATM-59-02-Configure-CONGA-environments.html)
+* [DATM-59-03 Define CONGA Roles and Templates](https://training.wcm.io/conga/DATM-59-03-Define-CONGA-Roles-and-Templates.html)
 
 
 Build configuration
