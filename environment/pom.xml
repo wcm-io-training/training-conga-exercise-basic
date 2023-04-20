@@ -23,6 +23,7 @@
       <groupId>de.pro-vision.training.conga</groupId>
       <artifactId>de.pro-vision.training.conga.basic.definition</artifactId>
       <version>1-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
     
     <!-- Example reference for downloading maven artifact in CONGA -->
@@ -32,6 +33,7 @@
       <version>1.2.8</version>
       <type>xml</type>
       <classifier>site</classifier>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>
