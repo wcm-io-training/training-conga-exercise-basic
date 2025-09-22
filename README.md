@@ -1,6 +1,6 @@
 CONGA Training: Basic concepts
 ==============================
-[![Build](https://github.com/wcm-io-training/training-conga-exercise-basic/workflows/Build/badge.svg?branch=master)](https://github.com/wcm-io-training/training-conga-exercise-basic/actions?query=workflow%3ABuild+branch%3Amaster)
+[![Build](https://github.com/wcm-io-training/training-conga-exercise-basic/actions/workflows/maven-build.yml/badge.svg?branch=master)](https://github.com/wcm-io-training/training-conga-exercise-basic/actions?query=workflow%3ABuild+branch%3Amaster)
 
 This training projects targets the following training modules:
 
